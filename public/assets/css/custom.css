@@ -1,0 +1,13 @@
+.noti-count {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: -5px;
+}
+.btn-blue {
+    background-color: #004aad;
+}
+.text-red {
+    color: #ff3131;
+}
