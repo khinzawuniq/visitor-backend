@@ -91,13 +91,13 @@
                         <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                             <th>#</th>
                             <th class="min-w-125px">Full Name</th>
-                            {{-- <th class="min-w-125px">Email</th> --}}
-                            <th class="min-w-125px">Phone</th>
+                            <th class="min-w-125px">Email</th>
+                            <th class="min-w-100px">Phone</th>
                             {{-- <th class="min-w-125px">Gender</th> --}}
-                            <th class="min-w-125px">Vehicle / Walk-In</th>
+                            <th class="min-w-100px">Vehicle/ <br> Walk-In</th>
                             <th class="min-w-125px">Check In</th>
                             <th class="min-w-125px">Check Out</th>
-                            <th class="min-w-125px">CheckOut Status</th>
+                            <th class="min-w-100px">CheckOut <br> Status</th>
                             <th class="text-end min-w-100px">Actions</th>
                         </tr>
                         <!--end::Table row-->
@@ -110,7 +110,7 @@
                         <tr>
                             <td> {{$loop->iteration}} </td>
                             <td> {{$visitor->full_name}}</td>
-                            {{-- <td> {{$visitor->email}}</td> --}}
+                            <td> {{$visitor->email}}</td>
                             <td> {{$visitor->phone}} </td>
                             {{-- <td> {{$visitor->gender}} </td> --}}
                             <td> {{$visitor->vehicle_walk_in}} </td>
