@@ -27,3 +27,7 @@ php artisan db:seed
 php artisan serve
 
 Now you can open project "localhost:8000"
+
+# For login admin user
+email : superadmin@admin.com
+pass  : @dmin123

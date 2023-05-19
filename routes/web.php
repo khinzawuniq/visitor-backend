@@ -22,6 +22,5 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resource('admins', AdminController::class);
 Route::resource('visitors', VisitorController::class);
 Route::post('/visitor-checkout', [VisitorController::class, 'checkOut'])->name('visitor-check-out');

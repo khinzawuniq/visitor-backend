@@ -76,10 +76,6 @@
                 <!--begin::Card title-->
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar gap-3">
-
-                    <form action="#" id="filter_form">
-                        {!! Form::select('name', [' '=>'All'], isset($search['name'])?$search['name']:null, array('class' => 'form-select w-200px','id'=>'name', "data-control"=>"select2", "data-placeholder"=>"Name", "required"=>true)) !!}
-                    </form>
                 
                 </div>
                 <!--end::Card toolbar-->
@@ -188,11 +184,6 @@
                         .then(() => {
                             location.href = location.href
                         })
-
-                        // $("#status_label_"+id).removeClass('badge-warning').addClass("badge-success");
-                        // $("#status_"+id).addClass('d-none');
-
-                        // $("#status_label_"+id).text('YES');
 
                     }else {
                         alert('Something went wrong!');
